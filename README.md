@@ -1,6 +1,6 @@
 # Socialite with lumen
 
-It is a symple application where you will be able to learn how to use [Socialite](https://github.com/laravel/socialite) for social login. Though I am using return view, you will find a way out to attach social login with lumen. I have attached [Passport](https://github.com/dusterio/lumen-passport) for token baised authentication. 
+It is a symple application (boilerplate) where you will be able to learn how to use [Socialite](https://github.com/laravel/socialite) for social login. Though I am using return view, you will find a way out to attach social login with lumen. I have attached [Passport](https://github.com/dusterio/lumen-passport) for token baised authentication. 
 
 N.B: If you need only token baised authentication you don't need to use [Socialite](https://github.com/laravel/socialite)
 
@@ -17,7 +17,7 @@ N.B: If you need only token baised authentication you don't need to use [Sociali
 
 ## Instructions
 
-You have to create project from  [Google console](https://console.developers.google.com/). After creating project you will get credentials like:
+You have to create a project from the [Google console](https://console.developers.google.com/). After creating the project you will get credentials like:
 
 ```
     Client ID: XXXXXXXXXXXXXXXXXXX.apps.googleusercontent.com
