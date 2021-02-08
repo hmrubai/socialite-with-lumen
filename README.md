@@ -15,4 +15,30 @@ N.B: If you need only token baised authentication you don't need to use [Sociali
 
 - **[Hosne Mobarak Rubai](https://github.com/hmrubai/)**
 
+## Instructions
 
+You have to create project from  [Google console](https://console.developers.google.com/). After creating project you will get credentials like:
+
+```
+    Client ID: XXXXXXXXXXXXXXXXXXX.apps.googleusercontent.com
+    Client secret: xxxxxxxxxxxxxxxxxxxx
+    Creation date: February 8, 2021 at 1:00:00 PM GMT+1
+```
+
+### Update .env
+
+```
+    GOOGLE_CLIENT_ID=XXXXXXXXXXXXXXXXXXX.apps.googleusercontent.com
+    GOOGLE_CLIENT_SECRET=xxxxxxxxxxxxxxxxxxxx
+    GOOGLE_REDIRECT=http://localhost:8000/success
+```
+
+### Update Your config/services.php
+
+```
+    'google' => [
+        'client_id' => env('GOOGLE_CLIENT_ID'),
+        'client_secret' => env('GOOGLE_CLIENT_SECRET'),
+        'redirect' => env('GOOGLE_REDIRECT'),
+    ],
+```
