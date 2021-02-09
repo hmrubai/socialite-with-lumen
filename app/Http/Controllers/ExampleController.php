@@ -46,4 +46,16 @@ class ExampleController extends Controller
 
         // return response(['data' => $user, 'message' => 'Account Featch successfully!', 'status' => true]);
     }
+
+    public function redirectToGithubProvider(Request $request)
+    {
+        return Socialite::driver('github')->stateless()->redirect();
+    }
+
+    public function handleProviderGithubCallback(Request $request)
+    {
+        //$user = Socialite::driver('github')->user();
+        $user = Socialite::driver('github')->stateless()->user();
+        return response(['data' => $user, 'message' => 'Account Featch successfully!', 'status' => true]);
+    }
 }

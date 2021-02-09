@@ -21,3 +21,7 @@ $router->post('/register','UsersController@register');
 
 $router->get('/auth/google', ['uses' => 'ExampleController@redirectToProvider']);
 $router->get('/success', ['uses' => 'ExampleController@handleProviderCallback']);
+
+
+$router->get('/auth/github', ['uses' => 'ExampleController@redirectToGithubProvider']);
+$router->get('/github/success', ['uses' => 'ExampleController@handleProviderGithubCallback']);
