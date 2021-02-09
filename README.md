@@ -26,7 +26,7 @@ You have to create an app under a project from the [Google console](https://cons
 ```
 
 GitHub App: 
-![alt text](https://bims24ltd.com/images/gitgub-app.png)
+![alt text](https://bims24ltd.com/images/gitgub-app-screen.png)
 
 ### Update .env
 
