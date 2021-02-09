@@ -31,6 +31,10 @@ You have to create a project from the [Google console](https://console.developer
     GOOGLE_CLIENT_ID=XXXXXXXXXXXXXXXXXXX.apps.googleusercontent.com
     GOOGLE_CLIENT_SECRET=xxxxxxxxxxxxxxxxxxxx
     GOOGLE_REDIRECT=http://localhost:8000/success
+
+    GITHUB_CLIENT_ID=ce3bb93899a77dc7c814
+    GITHUB_CLIENT_SECRET=9d48d072b15c930e565e88cfab3fc559ae379478
+    GITHUB_REDIRECT=http://localhost:8000/github/success
 ```
 
 ### Update Your config/services.php
@@ -40,5 +44,11 @@ You have to create a project from the [Google console](https://console.developer
         'client_id' => env('GOOGLE_CLIENT_ID'),
         'client_secret' => env('GOOGLE_CLIENT_SECRET'),
         'redirect' => env('GOOGLE_REDIRECT'),
+    ],
+
+    'github' => [
+        'client_id' => env('GITHUB_CLIENT_ID'),
+        'client_secret' => env('GITHUB_CLIENT_SECRET'),
+        'redirect' => env('GITHUB_REDIRECT'),
     ],
 ```
