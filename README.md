@@ -26,7 +26,7 @@ You have to create an app under a project from the [Google console](https://cons
 ```
 
 GitHub App: 
-![alt text](https://drive.google.com/file/d/1ozjd0OZn2xlHXWSzCV3uMEPIh97b_ftr/view)
+![alt text](https://bims24ltd.com/images/gitgub-app.png)
 
 ### Update .env
 
@@ -35,8 +35,8 @@ GitHub App:
     GOOGLE_CLIENT_SECRET=xxxxxxxxxxxxxxxxxxxx
     GOOGLE_REDIRECT=http://localhost:8000/success
 
-    GITHUB_CLIENT_ID=ce3bb93899a77dc7c814
-    GITHUB_CLIENT_SECRET=9d48d072b15c930e565e88cfab3fc559ae379478
+    GITHUB_CLIENT_ID=XXXXXXXXXXXXXXXXXXX
+    GITHUB_CLIENT_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     GITHUB_REDIRECT=http://localhost:8000/github/success
 ```
 
