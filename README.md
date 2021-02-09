@@ -17,7 +17,7 @@ N.B: If you need only token based authentication you don't need to use [Socialit
 
 ## Instructions
 
-You have to create an app under a project from the [Google console](https://console.developers.google.com/). After creating the project you will get credentials like:
+You have to create an app under a project from the [Google console](https://console.developers.google.com/). For [github](https://github.com/settings/applications). After creating the app, you will get credentials like:
 
 ```
     Client ID: XXXXXXXXXXXXXXXXXXX.apps.googleusercontent.com
