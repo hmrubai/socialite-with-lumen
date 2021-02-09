@@ -20,6 +20,9 @@ class ExampleController extends Controller
 
     public function redirectToProvider(Request $request)
     {
+        //If you need only Url for frontend then you have to return this url to frontend(Angular, React, VueJs, etc).
+        //return Socialite::with('google')->stateless()->redirect()->getTargetUrl();
+
         return Socialite::driver('google')->stateless()->redirect();
     }
 
